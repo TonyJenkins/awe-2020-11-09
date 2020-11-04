@@ -12,6 +12,7 @@ have been made to the project.
 To run, clone the repo and then:
 
 `$ composer update`
+
 `$ npm install && npm run dev`
 
 Then configure `.env` with some suitable database settings
