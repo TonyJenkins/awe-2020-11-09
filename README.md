@@ -15,12 +15,16 @@ To run, clone the repo and then:
 
 `$ npm install && npm run dev`
 
-Then configure `.env` with some suitable database settings
+Then create and configure `.env` with some suitable database settings
 and credentials.
 
 Migrate:
 
 `$ php artisan migrate:fresh`
+
+Generate the application key:
+
+`$ php artisan key:generate`
 
 Run the development server, and the app will be available,
 most probably on port 8000.
